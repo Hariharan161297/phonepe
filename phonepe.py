@@ -10,8 +10,6 @@ from streamlit_option_menu import option_menu
 
 st.set_page_config(page_title="Phonepe",page_icon="🧊",layout="wide")
 
-backgroundcolor: 800080
-font="sans serif"
 
 # Creating connection with mysql workbench
 mydb = pymysql.connect(host = '127.0.0.1',user='root',passwd='Hari@161297',database = "phonepe")
